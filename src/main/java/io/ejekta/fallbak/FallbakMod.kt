@@ -1,18 +1,18 @@
-package com.example
+package io.ejekta.fallbak
 
 import io.ejekta.kambrik.Kambrik
 import net.fabricmc.api.ModInitializer
 
-class ExampleMod : ModInitializer {
+class FallbakMod : ModInitializer {
 
     internal companion object {
-        const val ID = "example"
+        const val ID = "fallbak"
     }
 
     private val logger = Kambrik.Logging.createLogger(ID)
 
     override fun onInitialize() {
-        logger.info("Kambrik Sample Mod Says Hello!")
+        logger.info("Fallbak Mod Says Hello!")
     }
 
 }

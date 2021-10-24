@@ -1,9 +1,10 @@
 {
 	"required": true,
 	"minVersion": "0.8",
-	"package": "io.ejekta.sample.mixins",
+	"package": "io.ejekta.fallbak.mixins",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
+		"ItemLoadMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

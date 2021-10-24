@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "sample",
+  "id": "fallbak",
   "version": "${version}",
 
-  "name": "Kambrik Sample Mod",
-  "description": "A Sample Mod for Kambrik",
+  "name": "Fallbak",
+  "description": "A content fallback mod",
   "authors": [
     "Ejektaflex"
   ],
@@ -20,11 +20,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.ExampleMod"
+		"io.ejekta.fallbak.FallbakMod"
     ]
   },
   "mixins": [
-    "sample.mixins.json"
+    "fallbak.json"
   ],
 
   "depends": {
